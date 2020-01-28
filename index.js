@@ -12,9 +12,10 @@ function renderBooks(json) {
     h2.innerHTML = `<h2>${book.name}</h2>`
     main.appendChild(h2)
   })
+  return undefined;
 }
 
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks();
-
+  return undefined; 
 })
